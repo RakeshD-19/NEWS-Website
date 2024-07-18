@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY NEWS24</title>
+    <link rel="stylesheet" href="news.css">
+</head>
+<body>
+    <nav>
+        <div class="main-nav container flex">
+            <a href="#" onclick="reload()" class="companylogo"><img src="https://i.pinimg.com/originals/26/91/f2/2691f2fa1a0f078f5f274edf7fea6763.png" alt="NEWS name"></a>
+        
+          <div class="links">
+            <ul class="flex">
+                <li class="navitems navactive" id="ipl" onclick="onNavitemclick('ipl')">IPL</li>
+                <li class="navitems navactive" id="finance" onclick="onNavitemclick('finance')">FINANCE</li>
+                <li class="navitems navactive" id="health" onclick="onNavitemclick('health')">Health</li>
+                <li class="navitems navactive" id="football" onclick="onNavitemclick('football')">FOOTBALL</li>
+                <li class="navitems navactive" id="entertain" onclick="onNavitemclick('entertain')">ENTERTAINMENT</li>
+                <li class="navitems navactive" id="tamilnadu" onclick="onNavitemclick('tamilnadu')">TAMILNADU</li>
+            </ul>
+          </div>
+          <div class="search">
+            <input type="text" id="newsSearch" class="newsSearch" placeholder="eg.science">
+            <button class="searchbtn" id="searchbtn">Search</button>
+          </div>
+        </div>
+    </nav>
+    <main>
+        <div class="card-container container flex" id="card-container">
+            
+        </div>
+    </main>
+    <template id="template-news-card">
+        <div class="card">
+        <div class="card-header">
+            <img src="https://via.placeholder.com/400x200" alt="news-image" id="news-image">
+        </div>
+        <div class="card-content">
+            <h3 id="newstitle">This is the Content</h3>
+            <h6 class="news-source" id="news-source">End gadget </h6>
+            <p class="news-desc" id="news-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum expedita reprehenderit minus provident! Tenetur, nulla vero? Consequuntur voluptate reprehenderit vel nesciunt, mollitia ipsum vero aut earum, molestias suscipit perferendis libero.</p>
+        </div>
+    </div>
+    </template>
+    <script src="news.js"></script>
+</body>
+</html>
