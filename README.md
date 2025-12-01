@@ -4,8 +4,7 @@ Welcome to our News Website project! This website provides a platform to display
 # Features
 ### Dynamic News Display:
 Articles are fetched from an external API and displayed dynamically on the website.
-### Responsive Design:
-The website is designed to be responsive and compatible with various screen sizes.
+### Responsive Design:The website is designed to be responsive and compatible with various screen sizes.
 ### Search Functionality:
 Users can search for specific news topics or keywords.
 ### Filtering:
@@ -24,5 +23,5 @@ Used for fetching news data (list APIs used and their purposes).
 For any questions or feedback, please contact rakeshpost86@gmail.com
 
 
-Hiiilsls!
-HELOOOOOvim README.md !
+
+
